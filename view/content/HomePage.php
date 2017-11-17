@@ -12,7 +12,14 @@
 <div class="left_side">
 	<img >
 	<div class="presentation"></div>
-	<div class="news"></div>
+	<?php 
+	while ($data = $ShowAllPost->fetch()) {
+		# code...
+	}
+	?>
+	<div class="news">
+		
+	</div>
 </div>
 <div class="right_side">
 	<div></div>
