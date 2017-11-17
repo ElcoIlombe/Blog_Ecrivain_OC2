@@ -14,7 +14,7 @@ class PostManager extends DbConnexionManager
 		('SELECT * 
 		FROM posts')
 		or die($db->errorInfo());
-		
-		return $ShowAllPost;
+
+		return $ShowAllPost->fetch();
 	}
 }
